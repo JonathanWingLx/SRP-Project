@@ -1,0 +1,4 @@
+Code ideas:
+file.read() reads one line at a time. First line reads the parameters and add them to a database
+all future reads add items to the database. no required parameters? No UID.
+tkinter.menu for menu dropdowns

@@ -1,0 +1,11 @@
+Basic open file screen
+-> please wait screen/loading screen with bar (if possible) can do tkinter.progressbar
+-> add commas?
+|
+v
+show boxes with each Channel
+tick boxes for show errors/issues
+|
+v
+when showing errors, show 1 chosen parameter/channel + Position
+and then the parameter that is from the tick box
