@@ -1,0 +1,18 @@
+1)
+open either type of file (blank file and .csv)
+read the contents line by line to print <-- testing
+split the contents by both '  ' and ,
+add the contents to the database
+
+2)
+add items to the screen for each line in the database
+Populate those items with channel + other options
+
+3)
+buttons to choose what to add to the items
+repopulate the items based on those choices
+
+4)
+logic to find errors i.e. address out of range, address overlapping
+highlight items with an error to make them obvious
+text appears when hovering over highlighted items to show the error
