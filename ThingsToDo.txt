@@ -4,3 +4,5 @@ Create code to read a data file to database
 Populate screen with boxes(canvas?) with some information
 Check boxes at top to select what to check against (Dropdown?)
 Menu items at the top for file edit help etc
+
+Scaleable windows
