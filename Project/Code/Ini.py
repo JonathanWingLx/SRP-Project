@@ -4,20 +4,19 @@ def DBSetUp():
     file = connect("Test.db")
     cs = file.cursor()
 
-    cs.execute("""CREATE TABLE IF NOT EXISTS LightWright
-    (
+    cs.execute("""CREATE TABLE IF NOT EXISTS LightWright2(
     Purpose TEXT,
-    Channel TEXT PRIMARY KEY,
+    Channel TEXT,
     Dimmer TEXT,
     Address TEXT,
     Position TEXT,
-    Unit# TEXT,
+    Unit'#' TEXT,
     Instrument Type TEXT,
     Load TEXT,
     Accessory TEXT,
     Color TEXT,
     Gobo TEXT,
-    Gobo Size TEXT,
+    Gobo_Size TEXT,
     Cicuit Name TEXT,
     Circuit# TEXT,
     Cable TEXT,
@@ -90,8 +89,8 @@ def DBSetUp():
     Color & Gobo TEXT,
     Color Flags TEXT,
     DMX Qty TEXT,
-    Instrument Type Weight TEXT
-    )""")
+    Instrument Type Weight TEXT)""")
 
     file.commit()
     file.close()
+DBSetUp()

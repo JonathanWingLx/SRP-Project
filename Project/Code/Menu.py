@@ -1,6 +1,8 @@
 from tkinter import *
 from tkinter.filedialog import *
 
+from ReadTest import *
+
 def MainScreen():
 
     def Text():
@@ -8,8 +10,9 @@ def MainScreen():
 
     def OpenFile():
         filename = askopenfilename(parent=MScreen)
-        f = open(filename)
-        print(f.read())
+        #f = open(filename)
+        #print(f.read())
+        Read(filename)
 
     MScreen = Tk()
     MScreen.geometry("1080x720")

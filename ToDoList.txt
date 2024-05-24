@@ -1,8 +1,13 @@
 1)
-open either type of file (blank file and .csv)
-read the contents line by line to print <-- testing
-split the contents by both '  ' and ,
-add the contents to the database
+o̶p̶e̶n̶ e̶i̶t̶h̶e̶r̶ t̶y̶p̶e̶ o̶f̶ f̶i̶l̶e̶ (̶'b̶l̶a̶n̶k̶' f̶i̶l̶e̶ a̶n̶d̶ .c̶s̶v̶)̶
+r̶e̶a̶d̶ t̶h̶e̶ c̶o̶n̶t̶e̶n̶t̶s̶ l̶i̶n̶e̶ b̶y̶ l̶i̶n̶e̶ t̶o̶ p̶r̶i̶n̶t̶ <-̶-̶ t̶e̶s̶t̶i̶n̶g̶
+s̶p̶l̶i̶t̶ t̶h̶e̶ c̶o̶n̶t̶e̶n̶t̶s̶ b̶y̶ b̶o̶t̶h̶ '  ' a̶n̶d̶ ,
+a̶d̶d̶ t̶h̶e̶ c̶o̶n̶t̶e̶n̶t̶s̶ t̶o̶ t̶h̶e̶ d̶a̶t̶a̶b̶a̶s̶e̶
+
+1.5)
+Move ini.py to the "open file" option
+Read the first line and make the database table based on the first line
+Delete database tables when first opening program/when file is opened
 
 2)
 add items to the screen for each line in the database
@@ -10,6 +15,7 @@ Populate those items with channel + other options
 
 3)
 buttons to choose what to add to the items
+    -Tick boxes/options in MenuBar
 repopulate the items based on those choices
 
 4)
