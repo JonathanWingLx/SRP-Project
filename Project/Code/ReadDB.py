@@ -73,3 +73,6 @@ def Read(FN):
         AddToDB(item)
         #break
     LW.close()
+
+#https://www.geeksforgeeks.org/python-split-multiple-characters-from-string/
+#https://www.w3schools.com/sql/sql_alter.asp
