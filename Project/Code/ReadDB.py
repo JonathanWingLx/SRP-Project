@@ -20,6 +20,9 @@ from sqlite3 import *
         break
         #print('t')'''
 
+def DropDB():
+    print("Test")
+
 def MakeDB(col, fileName):
     i = 0
     file = connect("Test.db")

@@ -9,7 +9,7 @@ def Search(FN, C1, C2):
     FN = FN.split('/')
     FN = 'DB_'+FN[-1]
 
-    
+
 
     if C1 == 0:
         print("Missing")
@@ -19,6 +19,10 @@ def Search(FN, C1, C2):
         return cs.fetchall()
     elif C1 == 1:
         print("Duplicate")
+        cs.execute("""SELECT * FROM {} WHERE {} IN
+                     (SELECT {} FROM {} GROUP BY {} HAVING COUNT(*) > 1 AND {} IS NOT NULL)
+                   """.format(FN, C2, C2, FN, C2, C2))
+        return cs.fetchall()
 
 
         #file = connect("Test.db")

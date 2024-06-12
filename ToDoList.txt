@@ -22,3 +22,16 @@ repopulate the items based on those choices
 logic to find errors i.e. address out of range, address overlapping
 highlight items with an error to make them obvious
 text appears when hovering over highlighted items to show the error
+
+SET ALL STATES TO READONLY
+
+Add functions for commonly used/repeated bits of code
+Clean up all comments/testing/debugging prints
+Add comments to the different parts of the code
+Redo ALL names using a common case/labeling system
+
+Naming Conventions:
+Modules = all lowercase
+Class = PascalCase
+Functions = camelCase
+Variables = camelCase or snake_case <-- Need to choose

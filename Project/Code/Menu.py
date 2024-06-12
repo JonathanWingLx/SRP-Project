@@ -139,6 +139,7 @@ def MainScreen():
         filename = askopenfilename(parent=MScreen)
         #f = open(filename)
         #print(f.read())
+        #DropDB()
         #Read(filename)
         AddItems(filename)
 
